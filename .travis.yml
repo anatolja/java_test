@@ -13,6 +13,6 @@ deploy:
  provider: azure_web_apps
  username: javahelloworld
  password: Qwerty123456
- site: javahelloworld.azurewebsites.net
+ site: MyFirstWebProject
  skip_cleanup: true
  verbose: true
