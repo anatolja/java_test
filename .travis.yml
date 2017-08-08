@@ -12,7 +12,7 @@ after_failure:
 deploy:
  provider: azure_web_apps
  site: MyFirstWebProject-1.0-SHAPSHOT
- username: javahw
+ username: javahelloworld
  password: Qwerty123456
  skip_cleanup: true
  verbose: true
