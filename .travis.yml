@@ -9,3 +9,10 @@ after_success:
  - echo "Билд закончен успешно. $TRAVIS_TEST_RESULT"
 after_failure:
  - echo "Build was failed"
+deploy:
+ provider: azure_web_apps
+ username: anatolja
+ password: Yg8138ryeh
+ site: javahelloworld
+ skip_cleanup: true
+ verbose: true
