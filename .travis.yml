@@ -13,6 +13,6 @@ deploy:
  provider: azure_web_apps
  username: anatolja
  password: Yg8138ryeh
- site: javahelloworld
+ site: javahelloworld.azurewebsites.net
  skip_cleanup: true
  verbose: true
