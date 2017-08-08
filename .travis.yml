@@ -1,0 +1,18 @@
+language: java
+before_script:
+ - echo "Старт билда"
+script:
+ - mvn clean package
+after_script:
+ - echo "Скрипт закончен"
+after_success:
+ - echo "Билд закончен успешно. $TRAVIS_TEST_RESULT"
+after_failure:
+ - echo "Build was failed"
+deploy:
+ provider: azure_web_apps
+ site: MyFirstWebProject-1.0-SHAPSHOT
+ username: javahelloworld
+ password: Qwerty123456
+ skip_cleanup: true
+ verbose: true
