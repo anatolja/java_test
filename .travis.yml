@@ -11,6 +11,6 @@ after_failure:
  - echo "Build was failed"
 deploy:
  provider: azure_web_apps
- site: javahw
+ site: MyFirstWebProject
  skip_cleanup: true
  verbose: true
