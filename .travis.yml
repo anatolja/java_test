@@ -11,7 +11,7 @@ after_failure:
  - echo "Build was failed"
 deploy:
  provider: azure_web_apps
- site: MyFirstWebProject-1.0-SHAPSHOT
+ site: MyFirstWebProject
  username: javahelloworld
  password: Qwerty123456
  skip_cleanup: true
