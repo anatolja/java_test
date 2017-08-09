@@ -11,7 +11,7 @@ after_failure:
  - echo "Build was failed"
 deploy:
  provider: azure_web_apps
- site: MyFirstWebProject
+ site: https://javahello@javahello.scm.azurewebsites.net:443/javahello.git
  username: javahello
  password: Qwerty123456
  skip_cleanup: true
