@@ -11,8 +11,8 @@ after_failure:
  - echo "Build was failed"
 deploy:
  provider: azure_web_apps
- site: javahw 
- username: hwjava/javahw
+ site: javahw
+ username: javahw/hwjava
  password: Qwerty123456
  skip_cleanup: true
  verbose: true
