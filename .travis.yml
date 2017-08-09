@@ -12,7 +12,7 @@ after_failure:
 deploy:
  provider: azure_web_apps
  site: javahw
- username: javahw/hwjava
+ username: hwjava
  password: Qwerty123456
  skip_cleanup: true
  verbose: true
