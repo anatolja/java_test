@@ -11,7 +11,7 @@ after_failure:
  - echo "Build was failed"
 deploy:
  provider: azure_web_apps
- site: javahw.scm.azurewebsites.net:443/javahw.git
+ site: javahw.scm.azurewebsites.net
  username: hwjawa
  password: Qwerty123456
  skip_cleanup: true
