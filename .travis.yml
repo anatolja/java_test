@@ -12,5 +12,6 @@ after_failure:
 deploy:
  provider: azure_web_apps
  site: javahw 
+ username: hwjava
  skip_cleanup: true
  verbose: true
